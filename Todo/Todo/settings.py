@@ -76,11 +76,14 @@ WSGI_APPLICATION = 'Todo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME':'railway',
+        'USER':'postgres' ,
+        'PASSWORD': '-FGC-3fB1a6fe35f-66GEaeGAfEe5ggA',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '16899',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
