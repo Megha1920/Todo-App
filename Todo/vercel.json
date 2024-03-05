@@ -23,5 +23,7 @@
       "src": "/(.*)",
       "dest": "Todo/wsgi.py"
     }
-  ]
+  ],
+  "rewrites": 
+  [{ "source": "/(.*)", "destination": "/" }] 
 }
