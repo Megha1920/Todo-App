@@ -3,7 +3,7 @@ from tasks.views import home , logins , signup , add_todo , signout , delete_tod
 
 
 urlpatterns = [
-   path('' , home , name='home' ), 
+   path('' , signup ), 
    path('login/' ,logins  , name='login'), 
    path('signup/' , signup ), 
    path('add-todo/' , add_todo ), 
